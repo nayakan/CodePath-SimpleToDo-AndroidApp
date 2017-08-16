@@ -31,8 +31,8 @@ This was my first time building an Android application and it sure seemed fun. I
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** ArrayAdapter provides views for a collection of objects: For each item/object in a collection of items/objects provided the ArrayAdapter creates a view and it useful in our application for listing todo items in the ListView.
+**Answer:** 'ArrayAdapter' provides views for a collection of objects: For each item/object in a collection of items/objects provided the ArrayAdapter creates a view and it useful in our application for listing todo items in the ListView.
 Adapter acts as a bridge between views/UI and underlying data. They provide a means to provide/control display of data.
-convertView help avoid instantiating a new object everytime when adapter wants to display a list item, by recycling old view objects.
+'convertView' helps avoid instantiating a new object everytime when adapter wants to display a list item, by recycling old view objects.
 
 
