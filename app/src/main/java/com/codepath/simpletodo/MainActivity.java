@@ -80,9 +80,7 @@ public class MainActivity extends AppCompatActivity {
         File file = new File(filesDir, "todo.txt");
         try {
             todoItems = new ArrayList<String>(FileUtils.readLines(file));
-        } catch(IOException e) {
-
-        }
+        } catch(IOException e) {}
     }
 
     private void writeItems() {
@@ -90,9 +88,7 @@ public class MainActivity extends AppCompatActivity {
         File file = new File(filesDir, "todo.txt");
         try {
             FileUtils.writeLines(file, todoItems);
-        } catch(IOException e) {
-
-        }
+        } catch(IOException e) {}
     }
 
     public void onAddItem(View view) {
